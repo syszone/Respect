@@ -1,0 +1,7 @@
+
+@forward  './scss/global';
+@forward './scss/component/index';
+
+.input-placeholder::placeholder {
+    color: #fff;
+  }
