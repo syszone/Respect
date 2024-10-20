@@ -1,26 +1,30 @@
 const menus = [
+  {
+    id: 9,
+    name: "ComingSoon",
+    links: "/ComingSoon",
+  },
   // {
-  //     id: 1,
-  //     name: 'Home',
-  //     links: '#',
-  //     namesub: [
-  //         {
-  //             id: 1,
-  //             sub: 'Home 01',
-  //             links: '/'
-  //         },
-  //         {
-  //             id: 2,
-  //             sub: 'Home 02',
-  //             links: '/home-v2'
-  //         },
-  //         {
-  //             id: 3,
-  //             sub: 'Home 03',
-  //             links: '/home-v3'
-  //         },
-
-  //     ]
+  //   id: 8,
+  //   name: "Home",
+  //   links: "#",
+  //   namesub: [
+  //     {
+  //       id: 1,
+  //       sub: "Home 01",
+  //       links: "/",
+  //     },
+  //     {
+  //       id: 2,
+  //       sub: "Home 02",
+  //       links: "/home-v2",
+  //     },
+  //     {
+  //       id: 3,
+  //       sub: "Home 03",
+  //       links: "/home-v3",
+  //     },
+  //   ],
   // },
   // {
   //     id: 2,

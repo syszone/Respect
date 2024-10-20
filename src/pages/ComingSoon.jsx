@@ -14,35 +14,22 @@ import Blog from "../components/blog/Blog";
 import Counter from "../components/counter/Counter";
 import Faqs from "../components/faqs/Faqs";
 import Footer2 from "../components/footer/Footer2";
+import Footer from "../components/footer/Footer";
+import FooterComingSoon from "../components/footer/FooterComingSoon";
+
 import Project2 from "../components/project/Project2";
 import Roadmap2 from "../components/roadmap/Roadmap2";
 import Team2 from "../components/team/Team2";
 import Testimonials2 from "../components/testimonials/Testimonials2";
 
-function Home02(props) {
+function ComingSoon(props) {
   return (
     <div className="home-2 wrapper">
       <BannerComingSoon data={dataCard} />
 
-      <About2 />
-
-      <Counter />
-
-      <Project2 data={dataItem} />
-
-      <Roadmap2 data={dataRoadMap} />
-
-      <Team2 data={dataTeam} />
-
-      <Testimonials2 data={dataTestimonials2} />
-
-      <Faqs data={dataFaqs} />
-
-      <Blog data={dataBlog} />
-
-      <Footer2 />
+      <FooterComingSoon />
     </div>
   );
 }
 
-export default Home02;
+export default ComingSoon;

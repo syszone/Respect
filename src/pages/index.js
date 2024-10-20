@@ -7,6 +7,8 @@ import HelpCenter from "./HelpCenter";
 import Home01 from "./Home01";
 import Home02 from "./Home02";
 import Home03 from "./Home03";
+import ComingSoon from "./ComingSoon";
+
 import Nfts from "./Nfts";
 import ParticipantAssets from "./ParticipantAssets";
 import Partners from "./Partners";
@@ -17,8 +19,10 @@ import VisionsMission from "./VisionsMission";
 const routes = [
   //{ path: '/', component: <Home01 />},
   { path: "/", component: <Home03 /> },
+  { path: "/home-v1", component: <Home01 /> },
   { path: "/home-v2", component: <Home02 /> },
   { path: "/home-v3", component: <Home03 /> },
+  { path: "/ComingSoon", component: <ComingSoon /> },
 
   { path: "/nfts", component: <Nfts /> },
   { path: "/blog", component: <Blog /> },
