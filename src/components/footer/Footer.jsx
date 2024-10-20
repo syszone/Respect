@@ -83,7 +83,7 @@ function Footer(props) {
                     <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
-                <p>Copyright © 2022, Cyfonii. Designed by Themesflat</p>
+                <p>Copyright © 2022, Respect. Designed by BRDigitech</p>
               </div>
               <ul className="list-social">
                 <li>
