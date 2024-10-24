@@ -156,15 +156,30 @@ function Banner3(props) {
           <div className="col-xl-5 col-md-12">
             <div className="banner__left">
               <div className="block-text">
-                <h2 className="heading">
-                  Your Journey Begins Now!{" "}
+                <h4 className="heading">
+                  Empowering the Taekwondo and Sports Community{" "}
                   <span className="arlo_tm_animation_text_word"></span>
-                </h2>
+                </h4>
                 <p className="desc">
-                  Enter the world of RESPECT, where every challenge tests your
-                  limits and every victory earns real-world rewards. This is
-                  more than a fight – it’s a path to mastery, where discipline,
-                  strength, and strategy come together. now!"
+                  Introducing Respect Token, a digital revolution designed to
+                  empower and reward the Taekwondo and Sports community. Built
+                  to honor the values of discipline, respect, and excellence,
+                  Respect Token is more than a digital asset—it’s a symbol of
+                  unity and growth for practitioners, fans, and enthusiasts.
+                </p>
+                <h5 className="heading">
+                  {" "}
+                  <span className="arlo_tm_animation_text_word">
+                    As seen on ESPN sports network{" "}
+                  </span>
+                </h5>
+                <p className="desc">
+                  Respect Token is making waves across the world, with features
+                  in ESPN sports network, showcasing its mission to uplift and
+                  connect the global Tae Kwon Do community. Join us as we launch
+                  an innovative platform to reward dedication and passion in
+                  martial arts. Get ready to embrace the spirit of Taekwondo
+                  like never before.
                 </p>
 
                 <Link to="/contact" className="action-btn">
