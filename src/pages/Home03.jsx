@@ -41,11 +41,11 @@ function Home03(props) {
 
       {/* <Speciality data={dataBox} /> */}
 
-      <Testimonials data={dataTestimonials} />
+      {/* <Testimonials data={dataTestimonials} /> */}
 
       {/* <Counter /> */}
 
-      <Blog data={dataBlog} />
+      {/* <Blog data={dataBlog} /> */}
 
       <Faqs data={dataFaqs} />
 
