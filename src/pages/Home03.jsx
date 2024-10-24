@@ -37,7 +37,7 @@ function Home03(props) {
 
       <Roadmap data={dataRoadMap} />
 
-      <Team data={dataTeam} />
+      {/* <Team data={dataTeam} /> */}
 
       {/* <Speciality data={dataBox} /> */}
 
