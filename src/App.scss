@@ -5,3 +5,22 @@
 .input-placeholder::placeholder {
     color: #fff;
   }
+
+  .roadmap-timeline-item ul {
+    list-style-type: circle;     /* Ensure circle bullets are used */
+    list-style-position: outside; /* Bullets are outside the text */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;          /* Add padding for bullet spacing */
+}
+
+.roadmap-timeline-item li {
+    margin-bottom: 8px;          /* Space between list items */
+    font-size: 14px;             /* Adjust the font size */
+    letter-spacing: 1px;         /* Add letter spacing */
+}
+
+.roadmap-timeline-item ul li::marker {
+    font-size: 10px;             /* Set the bullet size */
+    color: #1F223E;              /* Set the bullet color */
+}

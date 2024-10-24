@@ -7,14 +7,23 @@ import img2 from "../../assets/images/layouts/rewards2.png";
 
 import avt from "../../assets/images/layouts/avt-05.png";
 
+const handleDownload = () => {
+  const link = document.createElement("a");
+  link.href = "/assets/RESPECT_White_Paper.pdf";
+  link.download = "RESPECT_White_Paper.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link); // Clean up the DOM
+};
+
 function About3(props) {
   const [dataBlock] = useState({
     subheading: "Who are we",
     heading: "1st ICO Platform That Offers Rewards",
     desc1:
-      "The World’s 1st ICO Platform That Offers Rewards and The platform helps investors to make easy to purchase and sell their tokens",
+      "The World’s 1st ICO Platform That Offers Rewards and The platform helps supporters to make easy to purchase and sell their tokens",
     desc2:
-      "The pioneering nature of this ICO platform lies in its innovative approach to investor engagement. By introducing a rewards system, it not only streamlines the process of purchasing and selling tokens but also incentivizes participation. This dual benefit strategy aims to foster a more vibrant and loyal community, where every transaction contributes to a more rewarding experience for all stakeholders involved.",
+      "The pioneering nature of this ICO platform lies in its innovative approach to supporter engagement. By introducing a rewards system, it not only streamlines the process of purchasing and selling tokens but also incentivizes participation. This dual benefit strategy aims to foster a more vibrant and loyal community, where every transaction contributes to a more rewarding experience for all stakeholders involved.",
   });
   const [dataCard] = useState([
     {
@@ -50,7 +59,13 @@ function About3(props) {
               <h3 className="heading">{dataBlock.heading}</h3>
               <p className="mb-17">{dataBlock.desc1}</p>
               <p className="mb-26">{dataBlock.desc2}</p>
-              <Button title="More About Us" link="/about" />
+              <div style={{ display: "flex", gap: "20px" }}>
+                <Button title="More About Us" link="/about" />
+
+                <div onClick={handleDownload}>
+                  <Button title="Whitepaper" link="#" />
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-xl-6 col-md-12">

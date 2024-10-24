@@ -39,8 +39,14 @@ function Roadmap(props) {
                 <div key={idx.id} className={`roadmap-box ${idx.class}`}>
                   <div className="time">{idx.time}</div>
                   <div className="content">
-                    <h5 className="title">{idx.title}</h5>
-                    <p className="text">{idx.desc}</p>
+                    <h5 className="title" style={{ letterSpacing: 1 }}>
+                      {idx.title}
+                    </h5>
+                    {/* <p className="text" >{idx.desc}</p> */}
+                    <div
+                      className="roadmap-timeline-item"
+                      dangerouslySetInnerHTML={{ __html: idx.desc }}
+                    ></div>
                   </div>
                 </div>
               ))}

@@ -7,7 +7,7 @@ import imgFighter from "../../assets/images/layouts/coming-soon.png";
 import logoArt from "../../assets/images/logo/logo-art.png";
 
 // Define the target date in ISO format
-const targetDateISO = "2024-12-31T23:59:59.000Z";
+const targetDateISO = "2024-11-30T23:59:59.000Z";
 
 // Convert the target date to a Date object and get the timestamp in seconds
 const targetDate = new Date(targetDateISO).getTime() / 1000;
@@ -174,28 +174,28 @@ function BannerComingSoon(props) {
             <div className="banner__left">
               <div className="block-text">
                 <h4 className="heading">
-                  Empowering the Tae Kwon Do Community Coming Soon!{" "}
+                  Empowering the Taekwondo and Sports Community Coming Soon!{" "}
                   <span className="arlo_tm_animation_text_word"></span>
                 </h4>
                 <p className="desc">
                   Introducing Respect Token, a digital revolution designed to
-                  empower and reward the Tae Kwon Do community. Built to honor
-                  the values of discipline, respect, and excellence, Respect
-                  Token is more than a digital asset—it’s a symbol of unity and
-                  growth for practitioners, fans, and enthusiasts.
+                  empower and reward the Taekwondo and Sports community. Built
+                  to honor the values of discipline, respect, and excellence,
+                  Respect Token is more than a digital asset—it’s a symbol of
+                  unity and growth for practitioners, fans, and enthusiasts.
                 </p>
                 <h5 className="heading">
                   {" "}
                   <span className="arlo_tm_animation_text_word">
-                    As Seen in ESPN News{" "}
+                    As seen on ESPN sports network{" "}
                   </span>
                 </h5>
                 <p className="desc">
                   Respect Token is making waves across the world, with features
-                  in ESPN News, showcasing its mission to uplift and connect the
-                  global Tae Kwon Do community. Join us as we launch an
-                  innovative platform to reward dedication and passion in
-                  martial arts. Get ready to embrace the spirit of Tae Kwon Do
+                  in ESPN sports network, showcasing its mission to uplift and
+                  connect the global Tae Kwon Do community. Join us as we launch
+                  an innovative platform to reward dedication and passion in
+                  martial arts. Get ready to embrace the spirit of Taekwondo
                   like never before.
                 </p>
                 {/* <Link to="/contact" className="action-btn">
@@ -263,7 +263,7 @@ function BannerComingSoon(props) {
                   >
                     <div style={headingBoxStyle}>
                       <h4 style={headingTextStyle} className="title">
-                        Coming Soon
+                        Global Launching - November 30, 2024
                       </h4>
                     </div>
                     <div style={{ display: "flex" }}>

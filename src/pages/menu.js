@@ -93,16 +93,16 @@ const menus = [
     name: "RoadMap",
     links: "/road-map",
   },
-  {
-    id: 6,
-    name: "Team",
-    links: "/team",
-  },
-  {
-    id: 7,
-    name: "Contact",
-    links: "/contact",
-  },
+  // {
+  //   id: 6,
+  //   name: "Team",
+  //   links: "/team",
+  // },
+  // {
+  //   id: 7,
+  //   name: "Contact",
+  //   links: "/contact",
+  // },
 ];
 
 export default menus;

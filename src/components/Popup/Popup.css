@@ -1,0 +1,83 @@
+/* Popup background (blur effect) */
+.popup-overlay {
+    position: fixed;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(5px); /* Add blur effect */
+    z-index: 1000; /* Ensure it stays on top */
+  }
+  
+  /* Popup box */
+  .popup-box {
+    position: fixed;
+    width: 80%; /* Adjust width */
+    max-width: 600px; /* Max width for desktop */
+    max-height: 70%; /* Max height for the content */
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background: #13133D;
+     
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1001; /* Ensure it's on top of overlay */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .popup-box h4{ margin-bottom: 30px;}
+  
+  /* Scrollbar styling */
+.popup-box::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  /* Track */
+  .popup-box::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, rgba(35, 31, 87, 0.05) 0%, rgba(19, 19, 61, 0) 73.86%);
+    border-radius: 10px; /* Optional: to round the scrollbar track */
+  }
+  
+  /* Handle */
+  .popup-box::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgba(35, 31, 87, 1) 0%, rgba(19, 19, 61, 1) 100%);
+    border-radius: 10px; /* Optional: round the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  .popup-box::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, rgba(35, 31, 87, 0.8) 0%, rgba(19, 19, 61, 0.8) 100%);
+  }
+  
+   
+   
+  /* Content styling */
+  .popup-box p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  /* Close button styling */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Popup box */
+  @media (max-width: 600px) {
+    .popup-box {
+      width: 90%;
+      max-width: 90%;
+      max-height: 70%;
+    }
+  }
