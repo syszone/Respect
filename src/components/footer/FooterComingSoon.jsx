@@ -87,7 +87,7 @@ function FooterComingSoon(props) {
               </div>
               <ul className="list-social">
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.facebook.com/KombatTaekwondo">
                     <svg
                       width="9"
                       height="16"
@@ -102,7 +102,7 @@ function FooterComingSoon(props) {
                     </svg>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to="#">
                     <svg
                       width="15"
@@ -117,8 +117,28 @@ function FooterComingSoon(props) {
                       />
                     </svg>
                   </Link>
-                </li>
+                </li> */}
                 <li>
+                  <Link to="https://www.instagram.com/kombat_taekwondo/">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16 0H8C3.58 0 0 3.58 0 8v8c0 4.42 3.58 8 8 8h8c4.42 0 8-3.58 8-8V8c0-4.42-3.58-8-8-8zm5 16c0 2.76-2.24 5-5 5H8c-2.76 0-5-2.24-5-5V8c0-2.76 2.24-5 5-5h8c2.76 0 5 2.24 5 5v8z"
+                        fill="white"
+                      />
+                      <path
+                        d="M12 5.5A6.5 6.5 0 105.5 12 6.5 6.5 0 0012 5.5zm0 10.5A4 4 0 118 12a4 4 0 014 4zM18.5 5.25A1.25 1.25 0 1017.25 4 1.25 1.25 0 0018.5 5.25z"
+                        fill="white"
+                      />
+                    </svg>
+                  </Link>
+                </li>
+                {/* <li>
                   <Link to="#">
                     <svg
                       width="14"
@@ -141,9 +161,9 @@ function FooterComingSoon(props) {
                       />
                     </svg>
                   </Link>
-                </li>
+                </li> */}
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.youtube.com/@KombatTaekwondo">
                     <svg
                       width="18"
                       height="12"
