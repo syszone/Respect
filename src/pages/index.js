@@ -18,7 +18,8 @@ import VisionsMission from "./VisionsMission";
 
 const routes = [
   //{ path: '/', component: <Home01 />},
-  { path: "/", component: <Home03 /> },
+  // { path: "/", component: <Home03 /> },
+  { path: "/", component: <ComingSoon /> },
   { path: "/home-v1", component: <Home01 /> },
   { path: "/home-v2", component: <Home02 /> },
   { path: "/home-v3", component: <Home03 /> },

@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       {/* Render the Popup component */}
       <Popup isVisible={isPopupVisible} onClose={togglePopup} />
 

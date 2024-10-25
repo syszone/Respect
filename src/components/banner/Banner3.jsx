@@ -164,7 +164,7 @@ function Banner3(props) {
                   Introducing Respect Token, a digital revolution designed to
                   empower and reward the Taekwondo and Sports community. Built
                   to honor the values of discipline, respect, and excellence,
-                  Respect Token is more than a digital asset—it’s a symbol of
+                  Respect Token is more than a digital asset—it's a symbol of
                   unity and growth for practitioners, fans, and enthusiasts.
                 </p>
                 <h5 className="heading">
@@ -179,7 +179,7 @@ function Banner3(props) {
                   connect the global Tae Kwon Do community. Join us as we launch
                   an innovative platform to reward dedication and passion in
                   martial arts. Get ready to embrace the spirit of Taekwondo
-                  like never before.
+                  like never before.
                 </p>
 
                 <Link to="/contact" className="action-btn">
